@@ -101,3 +101,4 @@ thumbs.db
 tmp/
 temp/
 *.local
+serviceAccountKey.json
