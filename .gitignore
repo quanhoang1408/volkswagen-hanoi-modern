@@ -1,0 +1,103 @@
+# .gitignore for volkswagen-hanoi-modern
+# Generated to cover common web/project files (Node, editors, OS, CI/local builds)
+
+# Node
+node_modules/
+.npm/
+.npmrc.local
+.pnp/
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tgz
+
+# Build output
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.svelte-kit/
+.public/
+coverage/
+coverage-final.json
+.log/
+logs/
+*.log
+
+# Caches
+.cache/
+.cache-loader/
+.vite/
+.parcel-cache/
+.eslintcache
+bundle/
+.cache/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+.env.development
+.local
+.secret
+secrets.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+Icon?
+ehthumbs.db
+
+# IDEs and editors
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# Editor swap/backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Visual Studio / Windows
+*.user
+*.userosscache
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.psess
+*.vsp
+*.vspx
+
+# Docker / Compose local overrides
+docker-compose.override.yml
+
+# Build system / lock caches (optional caches)
+.cache/
+pnpm-store/
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Misc
+thumbs.db
+.idea/
+*.DS_Store
+.vagrant/
+tmp/
+temp/
+*.local
